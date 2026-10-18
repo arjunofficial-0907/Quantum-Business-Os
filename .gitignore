@@ -1,0 +1,32 @@
+node_modules/
+.venv/
+dist/
+build/
+.env
+__pycache__/
+backend/.env
+backend/.venv/
+backend/secrets/
+# Python caches and environments
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+venv/
+env/
+
+# Environment secrets
+.env.*
+!.env.example
+
+# Local databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# IDE and operating system
+.idea/
+.DS_Store
+Thumbs.db
